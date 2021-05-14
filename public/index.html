@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="title"><a href="">todolist</a></h1>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="todolist">
+                <form action="" method="post" class="input-form">
+                    <input type="text" name="task" id="addTask" placeholder="タスクを入力">
+                    <button id="addBtn">追加</button>
+                </form>
+                <div class="tab-menu-area">
+                    <ul class="tab">
+                        <li class="tab-item">未完了タスク</li>
+                        <li class="tab-item">完了タスク</li>
+                    </ul>
+        
+                    <div class="tab-menu-list">
+                        <ul class="todolist incomplete-list">
+                            <li class="task">
+                                todo
+                                <button class="btn-complete">完了</button>
+                                <button class="btn-delete">削除</button>
+                            </li>
+                        </ul>
+                        <ul class="todolist complete-list">
+                            <li class="task">
+                                todo
+                                <button class="btn-return">戻す</button>
+                                <button class="btn-delete">削除</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
