@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/scss/base/_base.scss","webpack:///style.scss"],"names":[],"mappings":"AAAA;EACI;ACCJ,C","file":"css/style.css","sourcesContent":["body{\n    background-color: white;\n}","body {\n  background-color: white;\n}"],"sourceRoot":""}
