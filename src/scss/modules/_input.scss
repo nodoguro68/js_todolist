@@ -1,0 +1,23 @@
+.input-form{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 60px 0;
+
+    .input{
+        width: 70%;
+        padding: 5px;
+        border: 3px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .add-btn{
+        display: inline-block;
+        width: 20%;
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: #ddd;
+        border: 3px solid #ddd;
+        color: #222;
+    }
+}
+
