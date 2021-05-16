@@ -1,0 +1,44 @@
+.todolist{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 1.4rem;
+}
+
+.btn-container{
+
+}
+
+@mixin btn-todo($color,$bg-color) {
+    display: inline-block;
+    width: 50px;
+    padding: 5px 0;
+    text-align: center;
+    background-color: $bg-color;
+    border-radius: 5px;
+    color: $color;
+    font-size: 1.4rem;
+}
+
+.btn-complete{
+    @include btn-todo(#ddd, rgb(236, 57, 57));
+}
+.btn-edit{
+    @include btn-todo(#ddd, rgb(57, 236, 96));
+}
+.btn-delete{
+    @include btn-todo(#ddd, #333);
+}
+.btn-return{
+    @include btn-todo(#222, #ddd);
+}
