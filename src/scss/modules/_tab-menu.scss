@@ -8,17 +8,18 @@
         width: 250px;
         margin-right: 5px;
         padding: 10px;
-        background-color: #ddd;
+        background-color: #eee;
         border-radius: 5px 5px 0 0;
         text-align: center;
-        opacity: 0.5;
-
+        color: #999;
+        
         &:last-child{
             margin-right: 0;
         }
     }
-
+    
     .active{
-        opacity: 1;
+        background-color: #ccc;
+        color: #222;
     }
 }
