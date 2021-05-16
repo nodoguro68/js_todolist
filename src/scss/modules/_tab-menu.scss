@@ -1,17 +1,21 @@
 .tab{
     display: flex;
     justify-content: center;
-    // max-width: 500px;
-    // margin: 0 auto;
+    max-width: 500px;
+    margin: 0 auto;
 
     &-item{
-        width: 100px;
+        width: 250px;
         margin-right: 5px;
         padding: 10px;
         background-color: #ddd;
         border-radius: 5px 5px 0 0;
         text-align: center;
         opacity: 0.5;
+
+        &:last-child{
+            margin-right: 0;
+        }
     }
 
     .active{
