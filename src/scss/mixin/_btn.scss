@@ -1,0 +1,10 @@
+@mixin btn-todo($color,$bg-color) {
+    display: inline-block;
+    width: 50px;
+    padding: 5px 0;
+    text-align: center;
+    background-color: $bg-color;
+    border-radius: 5px;
+    color: $color;
+    font-size: 1.4rem;
+}

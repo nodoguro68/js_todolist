@@ -2,7 +2,7 @@
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 0 0 5px 5px;
 }
 
@@ -15,16 +15,7 @@
     font-size: 1.4rem;
 }
 
-@mixin btn-todo($color,$bg-color) {
-    display: inline-block;
-    width: 50px;
-    padding: 5px 0;
-    text-align: center;
-    background-color: $bg-color;
-    border-radius: 5px;
-    color: $color;
-    font-size: 1.4rem;
-}
+
 
 .btn-complete{
     @include btn-todo(#ddd, rgb(236, 57, 57));
